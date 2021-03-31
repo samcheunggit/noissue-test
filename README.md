@@ -2,6 +2,11 @@
 
 The app will display the product and shipping fee in cart, post the order to backend and return the purchased object and disply them in confirmation page.
 
+https://noissue-test.herokuapp.com/
+
+The app is hosted in heroku and you can have a overview through the above link, or run it locally by the below steps.
+
+
 ## Stack
 
 ### Frontend
