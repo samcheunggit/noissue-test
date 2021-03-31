@@ -1,0 +1,27 @@
+.long-col {
+  flex: 0 0 40%;
+}
+
+.normal-col {
+  flex: 0 0 30%;
+}
+
+.column {
+  text-align: left;
+  padding: 10px;
+}
+
+.header {
+  text-align: left;
+}
+
+.header-tx {
+  color: black;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+}
