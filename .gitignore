@@ -1,0 +1,9 @@
+npm-debug.log
+.DS_Store
+
+*.js.map
+src/**/*.js
+frontend/src/**/*.js
+frontend/build/*
+frontend/node_modules/
+node_modules/
