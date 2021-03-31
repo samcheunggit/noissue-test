@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./confirmation.css";
 import "../../App.css";
 import ProductList from "../../components/product-list/product-list";
@@ -14,6 +14,13 @@ export const Confirmation: React.FunctionComponent<{}> = () => {
   const backToCart = () => {
     history.push("/");
   };
+
+  useEffect(() => {
+    if (orderState.products.length === 0) {
+      alert('No product in confirmation page, you will be redirect to cart.')
+      backToCart()
+    }
+  }, [])
 
   return (
     <div className="main">

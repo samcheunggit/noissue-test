@@ -41,7 +41,7 @@ export const Cart: React.FunctionComponent<{}> = () => {
   return (
     <div className="main">
       <header className="header">
-        <p className="header-tx">Item in your cart</p>
+        <p className="header-tx">{state.products.length} item(s) in your cart</p>
       </header>
       <div className="cart-container">
         <ProductList products={state.products} />
