@@ -25,9 +25,8 @@ Node v14.16.0
 ### How to run the app locally
 
 1. Make sure yarn and node are installed in local machine.
-2. In project root directory, run `yarn build`.
-3. After the app is built, run `yarn start`, it will start node server with port 5000.
-4. Open the browser, and go to `http://localhost:5000`
+2. In project root directory, run `yarn start-locally`, after the app is built, it will start node server with port 5000.
+3. Open the browser, and go to `http://localhost:5000`
 
 ### How it works
 
